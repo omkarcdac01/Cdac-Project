@@ -46,7 +46,7 @@ const Write = () => {
             date: moment(Date.now()).format("YYYY-MM-DD HH:mm:ss"),
           });
           alert("Article has been published..!");
-          navigate("/")
+          navigate("/");
     } catch (err) {
       console.log(err);
     }

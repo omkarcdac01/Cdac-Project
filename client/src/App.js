@@ -13,6 +13,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./style.scss"
 
+
 const Layout = () => {
   return (
     <>
@@ -32,6 +33,7 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      
       {
         path: "/post/:id",
         element: <Single />,

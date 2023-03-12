@@ -209,7 +209,7 @@ $lightGreen: #F7DB45;
             border: none;
             cursor: pointer;
             background-color: white;
-            border: 1px solid teal;
+            border: 2px solid teal;
             color: teal;
 
             &:hover {
@@ -295,7 +295,7 @@ $lightGreen: #F7DB45;
 
       h1 {
         font-size: 20px;
-        color: #555;
+        color: #06c;
       }
 
       .post {
@@ -318,9 +318,9 @@ $lightGreen: #F7DB45;
           padding: 7.5px 15px;
           border: none;
           cursor: pointer;
-          color: teal;
+          color: green;
           background-color: white;
-          border: 1px solid teal;
+          border: 1px solid green;
 
           &:hover {
             border: 1px solid white;

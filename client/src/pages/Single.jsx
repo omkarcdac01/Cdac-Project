@@ -34,6 +34,7 @@ const Single = () => {
   const handleDelete = async ()=>{
     try {
       await axios.delete(`/posts/${postId}`);
+      alert ("Are you sure, you want to delete post ?");/////////
       navigate("/")
     } catch (err) {
       console.log(err);
